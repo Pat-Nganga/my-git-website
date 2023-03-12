@@ -1,3 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
 body {
-    background: rgb(189, 134, 152);
+    margin: 0;
+    font-family: "Roboto", sans-serf;
+    height:0vh;
+    background-color: #36454f;
+    color: whitesmoke;
+}
+
+nav {
+    width: 100%;
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
   }
+
+
+.navigation {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+
+    font-size: xx-large;
+  }
+  
+  .nav-link {
+    display:inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 100px; 
+    border-radius: 10px;
+  }
+  .nav-link a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+  a:hover {
+    color: plum;
+    font-weight: bold;
+  }
+  .container {
+    position: fixed;
+    top: 0;
+    background: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%; /* set a height for the div */
+    width: 100%; /* set a width for the div */
+  }
+  .content {
+    position: fixed;
+    top:400px
+  }
+
+ 
+  
