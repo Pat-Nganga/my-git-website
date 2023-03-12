@@ -56,7 +56,17 @@ nav {
   }
   .content {
     position: fixed;
-    top:400px
+    top:400px;
+    margin-left: 100px;
+  }
+
+  .content h1 {
+    font-size:100px;
+   
+  }
+  .content h2 { 
+    color: palevioletred;
+
   }
 
  
